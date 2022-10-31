@@ -1,0 +1,39 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 5rem;
+    min-height: 100vh;
+
+    background: linear-gradient(
+            to left, black, black 30%, gray
+    );
+}
+
+.loading {
+    animation-name: countdown;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.card:hover {
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
+
+.searchLabel {
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+}
+
+.searchBar {
+    padding: 1rem 20rem 5rem 20rem;
+}
+
+@media screen and (min-width: 1000px) {
+    .cardSize {
+        width: 25rem;
+    }
+}
